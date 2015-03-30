@@ -20,12 +20,20 @@
 	*
 	*/
 
+	var RecipeLink = React.createClass({
+		render: function(){
+			return(
+				<a href='http://www.google.com'> Link</a>
+			);
+		}
+	});
 
 	var RecipeList = React.createClass({
 	  render: function() {
 	    return (
 	      <div>
-	      	RecipeList component text
+	      	RecipeList component text 
+	      	<RecipeLink/>
 	      </div>
 	    );
 	  }
